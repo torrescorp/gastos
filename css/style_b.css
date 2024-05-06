@@ -1,0 +1,132 @@
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 8px 12px; /* Adicionando padding para melhorar a área de clique */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease; /* Adicionando transição para suavizar a mudança de cor */
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    background-color: #007bff; /* Alterando a cor de fundo ao passar o mouse */
+    color: #fff; /* Alterando a cor do texto ao passar o mouse */
+}
+
+/* Estilos específicos para o formulário de adicionar despesa */
+
+.add-expense-form {
+    margin-top: 20px;
+}
+
+.add-expense-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-expense-form form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-expense-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.add-expense-form input[type="date"],
+.add-expense-form input[type="text"],
+.add-expense-form input[type="number"],
+.add-expense-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.add-expense-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Adicionando transição para suavizar a mudança de cor */
+}
+
+.add-expense-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para tabelas */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
